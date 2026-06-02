@@ -18,8 +18,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../swift-standards/swift-ipv4-standard"),
-        .package(path: "../../swift-standards/swift-ipv6-standard"),
+        .package(url: "https://github.com/swift-standards/swift-ipv4-standard.git", branch: "main"),
+        .package(url: "https://github.com/swift-standards/swift-ipv6-standard.git", branch: "main"),
     ],
     targets: [
         .target(

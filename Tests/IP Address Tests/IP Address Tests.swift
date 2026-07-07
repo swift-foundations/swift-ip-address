@@ -9,8 +9,8 @@
 //
 // ===----------------------------------------------------------------------===//
 
-import Testing
 import IP_Address
+import Testing
 
 @Suite
 struct IPAddressTests {

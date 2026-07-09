@@ -13,7 +13,7 @@ import IP_Address
 import Testing
 
 @Suite
-struct IPAddressTests {
+struct `IP Address Tests` {
     @Test
     func `IP Address module re-exports IPv4_Standard and IPv6_Standard`() {
     }

@@ -14,6 +14,12 @@ import Testing
 
 @Suite
 struct `IP Address Tests` {
+    @Suite struct Unit {}
+    @Suite struct `Edge Case` {}
+    @Suite struct Integration {}
+}
+
+extension `IP Address Tests`.Unit {
     @Test
     func `IP Address module re-exports IPv4_Standard and IPv6_Standard`() {
     }

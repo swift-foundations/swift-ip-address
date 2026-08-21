@@ -1,14 +1,3 @@
-// ===----------------------------------------------------------------------===//
-//
-// This source file is part of the swift-ip-address open source project
-//
-// Copyright (c) 2025 Coen ten Thije Boonkkamp and the swift-ip-address project authors
-// Licensed under Apache License v2.0
-//
-// See LICENSE for license information
-//
-// ===----------------------------------------------------------------------===//
-
 import IP_Address
 import Testing
 
